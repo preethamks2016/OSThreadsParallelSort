@@ -1,5 +1,5 @@
 # OSThreadsParallelSort
-https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/concurrency-sort
+Project Description: https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/concurrency-sort
 
 - We split the array into threads=get_nprocs() number of subarrays and sort them paralelly. Each of the threads sort their respective subarrays.
 - we then merge all the results into one array using 'mergeResults' function which recursively merges the results from all the threads
